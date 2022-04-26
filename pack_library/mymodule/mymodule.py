@@ -2,7 +2,7 @@ import yaml
 from pathlib import Path
 
 here = Path(__file__).parent.resolve()
-print(here)
+
 def read_value(key:str):
     with open(f"{here}/resources/myresource.yaml", "r") as stream:
         try:
@@ -11,5 +11,5 @@ def read_value(key:str):
             print(exc)    
     return dict.get(key)
 
-# test
-print(read_value('Key1')) # Value1
+## test
+# print(read_value('Key1')) # Value1
