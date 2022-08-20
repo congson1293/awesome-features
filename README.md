@@ -5,3 +5,4 @@ This repository collects projects that make coding (including AI coding) easier,
 - [FastAPI](fastapi_demo)
 - [Build package](pack_libraryo)
 - [Dashboard Plotly](dash-plotly)
+- [Wandb Run locally](wandb)
