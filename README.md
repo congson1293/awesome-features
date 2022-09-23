@@ -6,3 +6,4 @@ This repository collects projects that make coding (including AI coding) easier,
 - [Build package](pack_libraryo)
 - [Dashboard Plotly](dash-plotly)
 - [Wandb Run locally](wandb)
+- [TPU](tpu)
