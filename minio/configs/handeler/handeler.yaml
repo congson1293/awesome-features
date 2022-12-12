@@ -1,0 +1,5 @@
+push: True
+path_file_up: 'TTS/models'
+path_file_in: 'examples/demo_file_upload.zip'
+path_file_save: 
+content_type: 'application/gzip'

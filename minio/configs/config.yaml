@@ -1,0 +1,11 @@
+accounts: 
+  MINIO_STORAGE_URL: '10.32.6.238:9500'
+  MINIO_STORAGE_BUCKET: 'speech'
+  MINIO_ACCESS_KEY: 'speech'
+  MINIO_SECRET_KEY: 'speech123'
+handeler:
+  push: False
+  path_file_up: 'TTS/models.zip'
+  path_file_in: /media/thuytran/data/repo/speech/production/tts-service/tts_api/model.zip
+  path_file_save: 'models.zip'
+  content_type: 'application/gzip'
