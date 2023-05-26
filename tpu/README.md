@@ -11,7 +11,7 @@ Access link: https://console.cloud.google.com/compute/tpus?project=<project-name
 
 2. Create TPU VM
 
-```python create_tpu_vm.py --zone=europe-west4-a --accelerator-type=v3-8 --version=v2-alpha --tpu-name <name>```
+```python create_tpu_vm.py --zone=europe-west4-a --accelerator-type=v3-8 --version=tpu-vm-pt-2.0 --tpu-name <name>```
 
 3. Setup for ready-to-run
 
